@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(230, 224, 217);
+}
+h1, p{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+div.login-container{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+button{
+    width: 90%;
+    padding: 12px;
+    margin-left: 20px; 
+    background-image: linear-gradient(to right, rgb(0, 132, 255), purple);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+button:hover{
+    background-image: linear-gradient(to right, purple, rgb(0, 132, 255));
+}
+input{
+    width: 90%;
+    padding: 9px;
+    margin-top: 10px;
+    margin-left: 0px; 
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    font-size: 14px;
+}
