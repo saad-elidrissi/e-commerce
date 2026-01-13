@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import Navbar from './components/Navbar.jsx';
+import LoginPage from './pages/login.jsx';
 
-import LoginPage from './components/pages/login.jsx';
+
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <LoginPage />
    
     </div>
